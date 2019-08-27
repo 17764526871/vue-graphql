@@ -1,0 +1,18 @@
+query UserInfoContent() {
+  getUserInfo() {
+    projectid
+    projectName
+    engineversion
+    toolversion
+    PREVIEWSTATUS
+    DEPLOYSTATUS
+    BUSINESSTYPE
+    BUSINESSTYPEID
+    CONFIGEXTENDID
+    crearedBy
+    createdDate
+    editBy
+    editDate
+    isDelete
+  }
+}

@@ -1,0 +1,7 @@
+
+
+mutation userInfoDelete ($projectid: Int!) {
+  userInfoDelete (projectid: $projectid) {
+    message
+  }
+}
